@@ -103,3 +103,19 @@ button:hover {
         margin-top: 1em;
     }
 }
+
+@media only screen and (max-height: 600px) {
+    .pokemon-details img {
+        width: 80px;     
+    }
+
+    input {
+        width: 260px;
+        margin-left: 1.5em;
+        margin-top: 15em;
+    }
+
+    button {
+        margin-top: 1em;
+    }
+}
