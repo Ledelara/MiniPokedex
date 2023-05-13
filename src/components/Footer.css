@@ -4,6 +4,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 4em;
 }
 
 footer h2 {
@@ -15,4 +16,10 @@ footer h2 {
                -2px 2px 0px blue,                    
                 2px -2px 0px blue,                  
                 2px 0px 0px blue;
+}
+
+@media only screen and (max-height: 600px) {
+    footer {
+        margin-top: 8em;
+    }
 }
