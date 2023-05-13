@@ -1,0 +1,45 @@
+.header-container {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: #FF6969;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.header-container h1 {
+    padding: .5em 0;
+    margin: 0;
+    color: #FFD95A;
+    text-shadow: 
+               -2px -2px 0px blue, 
+               -2px 2px 0px blue,                    
+                2px -2px 0px blue,                  
+                2px 0px 0px blue;
+}
+
+.header-container img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-left: 1em;
+    animation: rotate-animation 10s infinite;
+}
+
+@keyframes rotate-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(-360deg);
+    }
+    100% {
+      transform: rotate(-0deg);
+    }
+  }
