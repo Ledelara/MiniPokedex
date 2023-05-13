@@ -20,6 +20,6 @@ footer h2 {
 
 @media only screen and (max-height: 600px) {
     footer {
-        margin-top: 8em;
+        margin-top: 12em;
     }
 }
